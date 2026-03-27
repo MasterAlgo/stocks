@@ -15,7 +15,7 @@ Training on multiple "next tokens" and multiple input patterns:
 {p1, *, p2, *,..., pn} /
 ```
 
-is ultimately best and ultimately expensive because of **combinatorial** explosion of input, output and combination patterns.
+is ultimately best and ultimately expensive because of combinatorial explosion of input, output and combination patterns.
 
 ---
 
@@ -23,7 +23,7 @@ is ultimately best and ultimately expensive because of **combinatorial** explosi
 
 Biological neural networks start solving intractability by employing huge fan-in dynamic synaptic fields.  
 Huge means there are ~10K inputs - dendritic synapses waiting for the signal. Dynamic means a neuron fires with only a 10-300 synapses registering inputs.  
-Then "tired" synapses get into short R&R cycle while **remaining** ones are ready to listen for new messages. Fields are switching ~50 times a second.  
+Then "tired" synapses get into short R&R cycle while remaining ones are ready to listen for new messages. Fields are switching ~50 times a second.  
 Here is a demo clip of a "twinkling fields": https://youtu.be/T34rkIb7gEg
 
 **Additionally** neurons operate redundant overlapping sensory fields - which adds to complexity of neural messaging.  
