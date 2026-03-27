@@ -49,7 +49,7 @@ While comparison of long 10+K components binary vectors (HDC) deemed impossible,
 Building a single layer hierarchies is **very** simple: https://masteralgo.github.io/picoGPT/index.html (first/next token, static model) or just simple:  
 https://youtu.be/soWw5_hYVDc (first/next/middle token, dynamic model: [up] training, explicit forgetting, generation(s) are simultaneous).
 
-Building a multilayer hierarchies aka associative memory is conceptually simple but implementationally is a nightmare: irrelevant nodes got to gracefully locally decay/expire which affects both up- and **downstream** neighbours, independently decaying at the same time.
+Building a multilayer hierarchies aka associative memory is conceptually simple but implementationally is a nightmare: irrelevant nodes got to gracefully locally decay/expire which affects both up- and downstream neighbours, independently decaying at the same time.
 
 ---
 
@@ -64,7 +64,7 @@ How it works - 2.5 minutes clip of "trading then training" over a few millions d
 Would not make you rich... till you optimize... optimization space is huge, I gave up. My curiosity is fed, and greed is not a strong motivation. Medical applications would be interesting though.
 
 Included with jar-zip the "profitable parameters manifold" is pretty narrow - make a step right or left - get yourself a loser. Stocks are just convenient stream of "ground truth".  
-Implement your own "channels", **include** weather, news, indicators,... - Claude is there to help. Find new candles' patterns. Remember - behind every stock is a specific traders crowd - thus models must be stock specific.
+Implement your own "channels", include weather, news, indicators,... - Claude is there to help. Find new candles' patterns. Remember - behind every stock is a specific traders crowd - thus models must be stock specific.
 
 ### Downloads
 
@@ -79,4 +79,4 @@ I ran the app on a miniPC, allocated 30GB RAM to Java to accommodate 180 mils of
 
 Implementation of biological machinery in silicon is intractable, implementation of bio-machinery purpose - collection and manipulation of symbolic patterns - is very much doable. And inter-communication of complex symbolic patterns defines our conversation here :-)
 
-Same "neuromorphic" engine powers online learning, classification, clusterization, prediction, generation apps.s
+Same "neuromorphic" engine powers online learning, classification, clusterization, prediction, generation apps.
