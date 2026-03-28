@@ -1,4 +1,4 @@
-# stock# Neuromorphic Pattern Engine — Multi-Stream Sequence Prediction
+## Neuromorphic Pattern Engine — Multi-Stream Sequence Prediction
 
 Backdrop is at the front, runnable and sources are at the back.
 
@@ -78,5 +78,6 @@ I ran the app on a miniPC, allocated 30GB RAM to Java to accommodate 180 mils of
 ## Takeout
 
 Implementation of biological machinery in silicon is intractable, implementation of bio-machinery purpose - collection and manipulation of symbolic patterns - is very much doable. And inter-communication of complex symbolic patterns defines our conversation here :-)
+Important: in patterns' collections (trees, arrays, hashmaps) the *patterns* are keys with *values* are any association with classes, frequences, birth time, leak rate, rewards, etc. The key(pattern image) makes collections **symbolic** and inference **explainable**, because "names/images" and properties of voting constituents are always known.
 
 Same "neuromorphic" engine powers online learning, classification, clusterization, prediction, generation apps.
